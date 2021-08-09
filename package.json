@@ -1,0 +1,30 @@
+{
+    "name": "tunning-dracula",
+    "displayName": "tunning-dracula",
+    "description": "The dracula theme with improves",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mayckol/tunning-dracula"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "tunning-dracula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tunning-dracula-color-theme.json"
+            }
+        ]
+    },
+    "keywords": [
+        "dracula",
+        "dark",
+        "tunning"
+    ]
+}
