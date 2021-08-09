@@ -2,6 +2,7 @@
     "name": "tunning-dracula",
     "displayName": "Tunning Dracula",
     "description": "The dracula theme with improves",
+    "icon": "images/icon-theme.png",
     "version": "1.1.0",
     "engines": {
         "vscode": "^1.59.0"
