@@ -1,6 +1,6 @@
 {
     "name": "tunning-dracula",
-    "displayName": "tunning-dracula",
+    "displayName": "Tunning Dracula",
     "description": "The dracula theme with improves",
     "version": "1.0.0",
     "engines": {
@@ -9,6 +9,7 @@
     "categories": [
         "Themes"
     ],
+    "publisher": "TunningDracula",
     "repository": {
         "type": "git",
         "url": "https://github.com/mayckol/tunning-dracula"
