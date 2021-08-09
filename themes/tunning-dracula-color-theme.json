@@ -283,7 +283,7 @@
         "entity.name.type.module.js"
       ],
       "settings": {
-        "foreground": "#FF95ED"
+        "foreground": "#FF80BF"
       }
     },
     {
@@ -303,7 +303,7 @@
       }
     },
     {
-      "scope": ["punctuation.definition", "string.quoted.single.scss"],
+      "scope": ["string.quoted.single.scss"],
       "settings": {
         "foreground": "#F8F5F2",
 				"fontStyle": "bold"
@@ -311,12 +311,10 @@
     },
     {
       "scope": ["keyword.control"],
-      "settings": {
-        "fontStyle": "bold"
-      }
     },
     {
       "scope": [
+        "comment.line.double-slash.js",
         "comment.line.scss",
         "comment.line.double-slash.js",
         "punctuation.definition.comment.scss",
@@ -351,7 +349,6 @@
     {
       "scope": ["entity.name.tag.html"],
       "settings": {
-        "fontStyle": "bold"
       }
     },
     {
@@ -373,7 +370,6 @@
       ],
       "settings": {
         "foreground": "#FF95ED",
-        "fontStyle": ""
       }
     },
     {
@@ -397,7 +393,7 @@
         "source.sass keyword.control"
       ],
       "settings": {
-        "foreground": "#A8FF9B"
+        "foreground": "#8AFF80"
       }
     },
     {
@@ -425,7 +421,7 @@
         "punctuation.separator.key-value.html"
       ],
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#FF80BF"
       }
     },
     {
@@ -434,7 +430,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#74D76C"
+        "foreground": "#DBC235"
       }
     },
     {
@@ -448,6 +444,7 @@
         "meta.group.braces.curly",
         "constant.other.object.key.js",
         "string.unquoted.label.js",
+        "support.other",
       ],
       "settings": {
         "foreground": "#FF80BF",
@@ -471,7 +468,7 @@
     {
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#FF80BF"
       }
     },
     {
@@ -494,7 +491,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#F8F5F2"
+        "foreground": "#DBC235"
       }
     },
     {
@@ -528,7 +525,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#F8F5F2"
+        "foreground": "#DBC235"
       }
     },
     {
@@ -624,7 +621,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#FF95ED",
+        "foreground": "#FF80BF",
         "fontStyle": "bold"
       }
     },
