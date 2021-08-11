@@ -309,7 +309,11 @@
       }
     },
     {
-      "scope": ["keyword.control"]
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#F8F5F2",
+        "fontStyle": "bold"
+      }
     },
     {
       "scope": [
