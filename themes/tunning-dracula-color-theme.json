@@ -311,8 +311,7 @@
     {
       "scope": ["keyword.control"],
       "settings": {
-        "foreground": "#F8F5F2",
-        "fontStyle": "bold"
+        "foreground": "#FF80BF",
       }
     },
     {
@@ -523,7 +522,6 @@
         "keyword.control.conditional.js",
         "support.constant",
         "entity.other.attribute-name.html",
-        "string.quoted.single.js",
         "storage.type.function.js",
         "meta.object-literal.key"
       ],
