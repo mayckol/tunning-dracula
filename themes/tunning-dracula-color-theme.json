@@ -526,8 +526,8 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#ebebeb",
-        "fontStyle": "italic bold"
+        "foreground": "#d0f3cd",
+        "fontStyle": "italic"
       }
     },
     {
