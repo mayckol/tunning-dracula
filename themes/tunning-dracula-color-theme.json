@@ -441,7 +441,8 @@
         "meta.group.braces.curly",
         "constant.other.object.key.js",
         "string.unquoted.label.js",
-        "support.other"
+        "support.other",
+        "variable.language"
       ],
       "settings": {
         "foreground": "#FF80BF"
