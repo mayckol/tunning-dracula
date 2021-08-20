@@ -238,13 +238,13 @@
     {
       "scope": ["constant.other.php"],
       "settings": {
-        "foreground": "#FF80BF"
+        "foreground": "#359410"
       }
     },
     {
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#359410"
       }
     },
     {
