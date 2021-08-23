@@ -465,8 +465,6 @@
         "entity.other.attribute-name.pseudo-element",
         "meta.group.double.toml",
         "meta.group.toml",
-        "meta.object-binding-pattern-variable",
-        "punctuation.destructuring",
         "punctuation.colon.graphql",
         "punctuation.definition.block.scalar.folded.yaml",
         "punctuation.definition.block.scalar.literal.yaml",
