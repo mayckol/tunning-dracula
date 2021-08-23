@@ -207,13 +207,45 @@
     {
       "scope": [
         "string constant.other.placeholder",
-        "invalid.deprecated",
         "keyword",
         "storage.type",
         "storage.modifier"
       ],
       "settings": {
         "foreground": "#FF80BF"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "keyword.primitive-datatypes.swift",
+        "keyword.type.cs",
+        "meta.protocol-list.objc",
+        "meta.return-type.objc",
+        "source.go storage.type",
+        "source.groovy storage.type",
+        "source.java storage.type",
+        "source.powershell",
+        "storage.class.std.rust",
+        "storage.type.attribute.swift",
+        "storage.type.type",
+        "storage.type.core.rust",
+        "storage.type.cs",
+        "storage.type.groovy",
+        "storage.type.objc",
+        "storage.type.haskell",
+        "storage.type.ocaml",
+        "punctuation.definition.bracket",
+        "entity.other.inherited-class",
+        "meta.implementation",
+        "entity.other.attribute-name",
+        "list.highlightForeground"
+        // "meta.object-binding-pattern-variable variable.object.property",
+        // "meta.import variable.other.readwrite",
+        // "meta.variable.assignment.destructured.object.coffee variable",
+      ],
+      "settings": {
+        "foreground": "#acc8e4"
       }
     },
     {
@@ -236,7 +268,11 @@
       }
     },
     {
-      "scope": ["constant.other.php"],
+      "scope": [
+        "constant.other.php",
+        "punctuation.definition.link.restructuredtext",
+        "beginning.punctuation.definition.list.markdown"
+      ],
       "settings": {
         "foreground": "#359410"
       }
@@ -264,7 +300,6 @@
         "keyword.control",
         "constant.other.color",
         "punctuation.definition.tag",
-        "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.section.embedded",
         "keyword.other.template",
@@ -311,7 +346,7 @@
     {
       "scope": ["keyword.control"],
       "settings": {
-        "foreground": "#FF80BF",
+        "foreground": "#FF80BF"
       }
     },
     {
@@ -325,7 +360,8 @@
         "comment.block.html",
         "comment",
         "annotation",
-        "comment.block.documentation"
+        "comment.block.documentation",
+        "comment.block"
       ],
       "settings": {
         "foreground": "#6D6F7C"
@@ -385,9 +421,15 @@
         "markup.bold",
         "markup.bold.markdown",
         "markup.italic.markdown",
-        "meta.class-method.js entity.name.function.js",
+        "meta.class-method.js",
+        "entity.name.function.js",
         "variable.function.constructor",
-        "source.sass keyword.control"
+        "source.sass keyword.control",
+        "meta.function-call.generic",
+        "meta.function-call.object",
+        "meta.function-call.php",
+        "meta.function-call.static",
+        "keyword.operator.function.infix"
       ],
       "settings": {
         "foreground": "#8AFF80"
@@ -415,7 +457,35 @@
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
-        "punctuation.separator.key-value.html"
+        "punctuation.separator.key-value.html",
+        "constant.other.symbol.hashkey",
+        "punctuation.definition.constant.ruby",
+        "entity.other.attribute-name.placeholder",
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "meta.group.double.toml",
+        "meta.group.toml",
+        "meta.object-binding-pattern-variable",
+        "punctuation.destructuring",
+        "punctuation.colon.graphql",
+        "punctuation.definition.block.scalar.folded.yaml",
+        "punctuation.definition.block.scalar.literal.yaml",
+        "punctuation.definition.block.sequence.item.yaml",
+        "punctuation.function.swift",
+        "punctuation.separator.dictionary.key-value",
+        "punctuation.separator.hash",
+        "punctuation.separator.key-value",
+        "punctuation.separator.key-value.mapping.yaml",
+        "punctuation.separator.namespace",
+        "punctuation.separator.pointer-access",
+        "punctuation.separator.slice",
+        "string.unquoted.heredoc punctuation.definition.string",
+        "support.other.chomping-indicator.yaml",
+        "punctuation.separator.annotation",
+        "punctuation.section.embedded.end",
+        "punctuation.section.embedded.end source.php",
+        "unctuation.definition.variable.makefile",
+        "punctuation.section.embedded.end source.ruby"
       ],
       "settings": {
         "foreground": "#FF80BF"
@@ -424,17 +494,18 @@
     {
       "scope": [
         "variable.parameter.function.language.special",
-        "variable.parameter"
+        "variable.parameter",
+        "constant.other.date",
+        "constant.other.timestamp",
       ],
       "settings": {
-        "foreground": "#DBC235"
+        "foreground": "#DBC235",
       }
     },
     {
       "scope": [
         "constant.other.symbol",
         "constant.other.key",
-        "entity.other.inherited-class",
         "keyword.other.unit",
         "markup.heading",
         "markup.inserted.git_gutter",
@@ -455,8 +526,7 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types",
-        "entity.other.attribute-name"
+        "support.type.sys-types"
       ],
       "settings": {
         "foreground": "#f2f5f8"
@@ -524,11 +594,22 @@
         "support.constant",
         "entity.other.attribute-name.html",
         "storage.type.function.js",
-        "meta.object-literal.key"
+        "meta.object-literal.key",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
       ],
       "settings": {
-        "foreground": "#d0f3cd",
+        "foreground": "#acc8e4",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#DBC235"
       }
     },
     {
