@@ -328,8 +328,6 @@
         "punctuation.definition.entity.css",
         "keyword.operator.assignment.js",
         "punctuation.separator.comma.js",
-        "punctuation.definition.string.begin.js",
-        "punctuation.definition.string.end.js",
         "punctuation.definition.binding-pattern.object.js"
       ],
       "settings": {
@@ -347,6 +345,16 @@
       "scope": ["keyword.control"],
       "settings": {
         "foreground": "#FF80BF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#FF80BF",
+        "fontStyle": "bold"
       }
     },
     {
@@ -389,7 +397,6 @@
     },
     {
       "scope": [
-        "variable.parameter.js",
         "variable.parameter.keyframe-list.css"
       ],
       "settings": {
@@ -427,7 +434,6 @@
         "source.sass keyword.control",
         "meta.function-call.generic",
         "meta.function-call.object",
-        "meta.function-call.php",
         "meta.function-call.static",
         "keyword.operator.function.infix"
       ],
@@ -494,10 +500,10 @@
         "variable.parameter.function.language.special",
         "variable.parameter",
         "constant.other.date",
-        "constant.other.timestamp",
+        "constant.other.timestamp"
       ],
       "settings": {
-        "foreground": "#DBC235",
+        "foreground": "#DBC235"
       }
     },
     {
@@ -531,7 +537,11 @@
       }
     },
     {
-      "scope": ["support.class"],
+      "scope": [
+        "support.class",
+        "punctuation.definition.binding-pattern.object.js",
+        "meta.tag.inline source"
+      ],
       "settings": {
         "foreground": "#acc8e4"
       }
@@ -584,7 +594,6 @@
     },
     {
       "scope": [
-        "entity.other.attribute-name.id",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class",
         "entity.name.tag.css",
@@ -700,7 +709,11 @@
         "markdown.heading",
         "markup.heading | markup.heading entity.name",
         "markup.heading.markdown punctuation.definition.heading.markdown",
-        "entity.name.section.markdown"
+        "entity.name.section.markdown",
+        "markup.quote punctuation.definition.blockquote.markdown",
+        "markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.begin",
+        "markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.end",
+        "entity.other.attribute-name.id"
       ],
       "settings": {
         "foreground": "#FF80BF",
@@ -718,12 +731,6 @@
       "scope": ["markup.strike"],
       "settings": {
         "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
-      "settings": {
-        "foreground": "#FF80BF50"
       }
     },
     {
