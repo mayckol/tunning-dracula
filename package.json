@@ -3,7 +3,7 @@
     "displayName": "Tunning Dracula",
     "description": "The dracula theme with improves",
     "icon": "images/icon-theme.png",
-    "version": "1.9.5",
+    "version": "1.9.6",
     "engines": {
         "vscode": "^1.59.0"
     },
