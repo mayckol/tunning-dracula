@@ -274,13 +274,13 @@
         "beginning.punctuation.definition.list.markdown"
       ],
       "settings": {
-        "foreground": "#359410"
+        "foreground": "#8904f5"
       }
     },
     {
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#359410"
+        "foreground": "#8904f5"
       }
     },
     {
